@@ -1,9 +1,8 @@
-
+```css
 body {
     font-family: Arial, sans-serif;
     color: #333;
     background: #dbdada;
-
 }
 
 .container {
@@ -78,7 +77,6 @@ li {
     position: relative;
 }
 
-
 /* Experience */
 .card {
     background: #f8f9fa;
@@ -88,4 +86,65 @@ li {
     border-left: 3px solid #667eea;
 }
 
+/* ===================== */
+/* RESPONSIVE 📱 */
+/* ===================== */
 
+/* Tablette */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        margin-left: 5%;
+    }
+
+    .header {
+        padding: 20px;
+    }
+
+    .corps {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .container {
+        max-width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .header {
+        padding: 15px;
+    }
+
+    .corps {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+}
+```
