@@ -92,7 +92,7 @@ li {
     border-left: 3px solid #667eea;
 }
 
-/* 🔥 RESPONSIVE MOBILE */
+/* RESPONSIVE MOBILE */
 @media (max-width: 768px) {
     .container {
         width: 95%;
